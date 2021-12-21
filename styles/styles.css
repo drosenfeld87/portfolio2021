@@ -17,10 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-.intro-text {
-  margin: 0 auto;
+  height: 100vh;
 }
 
 h1 {
@@ -41,7 +38,7 @@ h3 {
 .social-icons {
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-items: space-between;
   width: 50px;
   color: #515151;
 }
