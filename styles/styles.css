@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Poppins:wght@200;300;400;600;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #515151;
+  font-family: 'Poppins', 'sans-serif';
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.intro-text {
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3em;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+
+h3 {
+  font-weight: 200;
+}
+
+.social-icons {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 50px;
+  color: #515151;
+}
